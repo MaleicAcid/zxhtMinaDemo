@@ -15,5 +15,15 @@
   
   </view>
 
-  <view class="bottom-contaniner"></view>
+  <view class="label-contaniner">
+      <view class="history-box">
+          <view class="history-box-text">
+            <text>历史搜索</text><text>清除</text>
+          </view>
+          <view class="history-box-label">
+            <view wx:for="{{historyList}}">{{item.name}}</view>
+          </view>
+      </view>
+  
+  </view>
 </view>

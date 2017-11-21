@@ -33,12 +33,12 @@
             <input placeholder="请填写收件人身份证"/>
         </view>
         <view class="middle-pic-box">
-              <view class="middle-pic">
+              <view bindtap='chooseCorrectPic' class="middle-pic">
                   <text>+</text>
                   <text>上传正面</text>
               </view>
 
-              <view class="middle-pic">
+              <view bindtap='chooseOppositePic' class="middle-pic">
                   <text>+</text>
                   <text>上传反面</text>
               </view>
