@@ -60,26 +60,6 @@
 .purchase-btn {
     font-size: 24rpx;
 }
-.wrap {
-    background: #fff;
-    margin: 20px auto;
-    border-radius: 2px 2px 2px 2px;
-    -webkit-box-shadow: 0 10px 6px -6px #777;
-    -moz-box-shadow: 0 10px 6px -6px #777;
-    box-shadow: 0 10px 6px -6px #777;
-}
-
-.box4{
-    margin: 20px auto;
-    min-height: 100px;
-    width: 300px;
-    padding: 10px;
-    position:relative;
-    background: -webkit-gradient(linear, 0% 20%, 0% 100%, from(#fff), to(#fff), color-stop(.2, #f2f2f2));
-    border: 1px solid #ccc;
-    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-}
-
 
 .wrap2 {
     margin-bottom:  20px;

@@ -32,11 +32,12 @@ page{
 
 .top-input-box text {
   padding-left: 30rpx;
+  width: 180rpx;
 }
 .top-input-box input{
   padding-left: 25rpx;
   height: 90rpx;
-  width: auto;
+  width: 100%;
 }
 
 .bottom-contaniner {

@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.6.6",
 	"appid": "touristappid",
-	"projectname": "test",
+	"projectname": "minaDemo",
 	"condition": {
 		"search": {
 			"current": -1,

@@ -2,7 +2,6 @@
 
 Page({
   data: {
-    middleInfo: '海关政策要求，请正确填写收货人身份证并上传身份证的正反面照片。加密保存，仅用于海关清关',
     addressList: [{
       name: '许倩倩',
       mobile: '180****6151',
