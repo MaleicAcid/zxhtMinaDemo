@@ -1,0 +1,33 @@
+<!--addressList.wxml-->
+<view class="container">
+
+  <scroll-view class="addressList-contaniner">
+        <view class="addressList-head">收货地址</view>
+
+        <view class="addressList-item" wx:for="{{addressList}}">
+            <view class="addressList-item-left">
+                  <view>
+                        <text class="addressList-item-name">{{item.name}}</text>
+                        <text>{{item.mobile}}</text>
+                  </view>
+                  <view>
+                        <text class="addressList-item-default" wx:if="{{item.isDefault == true}}">[默认]</text>
+                        <text>{{item.address}}</text>
+                  </view>
+            </view>
+
+            <view class="addressList-item-right">
+                <text>编辑</text>   
+            </view>
+        </view>
+        
+        <view class="addressList-bottom-blank">
+        </view>
+  </scroll-view>
+
+  <view class="bottom-contaniner">
+      <text class='addAddressBtn'>新增收货地址</text>
+  </view>
+
+
+</view>

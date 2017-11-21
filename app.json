@@ -1,0 +1,59 @@
+{
+  "pages":[
+
+    "pages/search/search",
+    "pages/index/index",
+    "pages/user/editAddress/editAddress",
+    "pages/user/addressList/addressList",
+    "pages/user/consignee/consignee",
+    "pages/index_old/index",
+    "pages/logs/logs"
+
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#BBDEF8",
+    "navigationBarTitleText": "Demo",
+    "navigationBarTextStyle":"white"
+  },
+
+"tabBar": {
+  "color": "#a9b7b7",
+  "selectedColor": "#ef3535",
+  "borderStyle": "white",
+  "list": [
+    {
+      "selectedIconPath": "images/index-red.png",
+      "iconPath": "images/index.png",
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },
+    {
+      "selectedIconPath": "images/cate.png",
+      "iconPath": "images/cate.png",
+      "pagePath": "pages/logs/logs",
+      "text": "分类"
+    },
+    {
+      "selectedIconPath": "images/search.png",
+      "iconPath": "images/search.png",
+      "pagePath": "pages/test/test",
+      "text": "搜索"
+    },
+    {
+      "selectedIconPath": "images/car.png",
+      "iconPath": "images/car.png",
+      "pagePath": "pages/test/test",
+      "text": "购物车"
+    },
+    {
+      "selectedIconPath": "images/user.png",
+      "iconPath": "images/user.png",
+      "pagePath": "pages/test/test",
+      "text": "用户中心"
+    }
+  ]
+}
+
+}

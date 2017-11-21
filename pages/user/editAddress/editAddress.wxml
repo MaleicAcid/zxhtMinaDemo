@@ -1,0 +1,30 @@
+<!--editAddress.wxml-->
+<view class="container">
+
+  <view class="top-contaniner">
+
+        <view class="top-input-box flex-col">
+            <text>收货人</text><input placeholder="姓名"/>
+        </view>
+        <view class="top-input-box flex-col">
+            <text>联系方式</text><input placeholder="手机号"/>
+        </view>
+
+      <view class="top-input-box">
+        <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+          <input placeholder="选择城市" value="{{inputRegion}}"/>
+        </picker>
+      </view>
+      
+        <view class="top-input-box flex-col">
+            <text>详细地址</text><input placeholder="街道地址"/>
+        </view>
+        
+  </view>
+
+  <view class="bottom-contaniner">
+      <text>详细地址需填写楼栋楼层或房间号信息</text>
+      <button type='primary' class='confirmBtn'>确认</button>
+  </view>
+
+</view>

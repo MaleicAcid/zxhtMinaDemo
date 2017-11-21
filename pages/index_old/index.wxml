@@ -1,0 +1,126 @@
+<!--index.wxml-->
+<button bindtap="consigneePage">consignee</button>
+<view class="container">
+  <!-- <view class="userinfo">
+     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 
+    </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block> 
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+
+  <view class="header-contaniner">
+        <image src="/images/cate.png" background-size="cover"></image>
+
+        <view class="header-input-box">
+            <input placeholder="请输入搜索关键字"/>
+        </view>
+        
+  
+  </view>
+
+  <view class="mainPic-contaniner"><image src="{{indexPicUrl}}" background-size="cover"></image></view>
+
+  <view class="middleBar-contaniner">
+    <view class="middleBar-item">
+          <image src="/images/index/info.png" background-size="cover"></image>
+          <text>物流信息</text>
+    </view>
+
+    <view class="middleBar-item">
+          <image src="/images/index/chat.png" background-size="cover"></image>
+          <text>联系店主</text>
+    </view>
+
+    <view class="middleBar-item">
+          <image src="/images/index/pingpai.png" background-size="cover"></image>
+          <text>品牌街</text>
+    </view>
+
+    <view class="middleBar-item">
+          <image src="/images/user.png" background-size="cover"></image>
+          <text>个人中心</text>
+    </view>
+  </view>
+
+  <view class="goods-contaniner">
+
+
+    <view class="goods-item">
+        <view><image class="goods-image" src="/images/user.png" background-size="cover"></image>
+        </view>
+
+        <view class="goods-desc">
+            <view class="goods-name">
+              <text>Goat Soap 瘦羊奶皂 儿童100g 抗过敏香皂</text>
+            </view>
+            <view class="goods-price">
+                <text class="goods-price-strong">价格：</text>
+                <text class="goods-price-strong goods-price-now">$4.20澳元</text>
+                <text class="goods-price-deleted">$5.04澳元</text>
+            </view>
+            <view class="goods-collect-and-sales">
+                <view>
+                    <image src="/images/index/collect.png" background-size="cover"></image>
+                    <text>51人收藏</text>
+                </view>
+
+                <text class="goods-sales-number">销量8件</text>
+            </view>
+        </view>
+    </view>
+
+        <view class="goods-item">
+        <view><image class="goods-image" src="/images/user.png" background-size="cover"></image>
+        </view>
+
+        <view class="goods-desc">
+            <view class="goods-name">
+              <text>Goat Soap 瘦羊奶皂 儿童100g 抗过敏香皂</text>
+            </view>
+            <view class="goods-price">
+                <text class="goods-price-strong">价格：</text>
+                <text class="goods-price-strong goods-price-now">$4.20澳元</text>
+                <text class="goods-price-deleted">$5.04澳元</text>
+            </view>
+            <view class="goods-collect-and-sales">
+                <view>
+                    <image src="/images/index/collect.png" background-size="cover"></image>
+                    <text>51人收藏</text>
+                </view>
+
+                <text class="goods-sales-number">销量8件</text>
+            </view>
+        </view>
+    </view>
+
+        <view class="goods-item">
+        <view><image class="goods-image" src="/images/user.png" background-size="cover"></image>
+        </view>
+
+        <view class="goods-desc">
+            <view class="goods-name">
+              <text>Goat Soap 瘦羊奶皂 儿童100g 抗过敏香皂</text>
+            </view>
+            <view class="goods-price">
+                <text class="goods-price-strong">价格：</text>
+                <text class="goods-price-strong goods-price-now">$4.20澳元</text>
+                <text class="goods-price-deleted">$5.04澳元</text>
+            </view>
+            <view class="goods-collect-and-sales">
+                <view>
+                    <image src="/images/index/collect.png" background-size="cover"></image>
+                    <text>51人收藏</text>
+                </view>
+
+                <text class="goods-sales-number">销量8件</text>
+            </view>
+        </view>
+    </view>
+
+  </view>
+</view>

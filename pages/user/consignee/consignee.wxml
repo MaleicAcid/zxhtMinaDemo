@@ -1,0 +1,55 @@
+<!--consignee.wxml-->
+<view class="container">
+
+  <view class="top-contaniner">
+
+        <view class="top-input-box">
+            <input placeholder="收货人真实姓名"/>
+        </view>
+        <view class="top-input-box">
+            <input placeholder="手机号"/>
+        </view>
+
+      <view class="top-input-box">
+        <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+          <input placeholder="选择城市" value="{{inputRegion}}"/>
+        </picker>
+      </view>
+      
+        <view class="top-input-box">
+            <input placeholder="详细地址"/>
+        </view>
+        
+  </view>
+
+
+  <view class="middle-contaniner">
+
+        <view class="middle-info">
+            <text>{{middleInfo}}</text> 
+        </view>
+        <view class="middle-input-box">
+            <text>收件人身份证号码:</text>
+            <input placeholder="请填写收件人身份证"/>
+        </view>
+        <view class="middle-pic-box">
+              <view class="middle-pic">
+                  <text>+</text>
+                  <text>上传正面</text>
+              </view>
+
+              <view class="middle-pic">
+                  <text>+</text>
+                  <text>上传反面</text>
+              </view>
+
+        </view>
+        
+  </view>
+
+  <view class="bottom-contaniner">
+      <button  class='saveBtn'>保存收件人</button>
+        
+  </view>
+
+</view>

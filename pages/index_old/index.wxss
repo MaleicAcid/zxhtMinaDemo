@@ -1,0 +1,139 @@
+/**index.wxss**/
+.container {
+  background-color: #f7f7f7;
+} 
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.mainPic-contaniner {
+  height: 320rpx;
+  width: 100%;
+  padding-bottom: 28rpx;
+}
+
+.mainPic-contaniner image{
+  height: 100%;
+  width: 100%;
+}
+
+.middleBar-contaniner {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 22rpx;
+}
+.middleBar-item {
+  display: flex;
+  height: 190rpx;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px #e3e3e3 solid;
+  flex: 1;
+  background-color: #fff;
+}
+
+.middleBar-item image {
+  height: 120rpx;
+  width: 130rpx;
+}
+
+.middleBar-item text {
+  font-size: 30rpx;
+}
+
+.header-contaniner {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f7f7f7;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+
+.header-contaniner image{
+  height: 60rpx;
+  width: 60rpx;
+}
+
+.header-input-box {
+  background-color: #fff;
+  width: 85%;
+}
+
+.goods-contaniner {
+  background-color: #fff;
+  width: 100%;
+  border-top: 1px #e3e3e3 solid;
+}
+
+.goods-item {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px #e3e3e3 dotted;
+}
+
+.goods-image{
+  height: 100%;
+  min-height: 189rpx;
+  width: 200rpx;
+}
+
+.goods-name {
+  font-size: 35rpx;
+}
+
+.goods-price {
+  font-size: 29rpx;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+}
+
+.goods-price-strong {
+  font-weight: 700;
+}
+.goods-price-now {
+  color: #ea4b35;
+}
+.goods-price-deleted {
+  font-size: 24rpx;
+  text-decoration:line-through;
+  color: #888;
+  padding-left: 20rpx;
+}
+
+.goods-collect-and-sales {
+  color: #888;
+  font-size: 29rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.goods-collect-and-sales image{
+  height: 28rpx;
+  width: 30rpx;
+}
+
+.goods-sales-number {
+  padding-right: 20rpx;
+}

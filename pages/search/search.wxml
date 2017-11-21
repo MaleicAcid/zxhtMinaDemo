@@ -1,0 +1,19 @@
+<!--index.wxml-->
+
+<view class="container">
+
+  <view class="header-contaniner">
+
+    <view class="header-box">
+      <view class="header-input-box">
+          <image mode='scaleToFit' src="/images/search.png" background-size="cover"></image>
+          <input placeholder="请输入搜索关键字"/>
+      </view>
+      <button>取消</button>
+    </view>
+
+  
+  </view>
+
+  <view class="bottom-contaniner"></view>
+</view>

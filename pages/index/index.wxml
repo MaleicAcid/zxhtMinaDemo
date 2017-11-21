@@ -1,0 +1,27 @@
+<!--index.wxml-->
+
+<view class="container">
+
+  <view class="goods-contaniner">
+    <view class="goods-item wrap2" wx:for="{{goodsList}}" >
+        <view><image mode="aspectFit" class="goods-image" src="{{item.pic}}" background-size="cover"></image>
+        </view>
+
+        <view class="goods-desc">
+            <view class="goods-name">
+              <text>{{item.name}}</text>
+            </view>
+            <view class="goods-price">
+                <text class="goods-price-strong">价格：</text>
+                <text class="goods-price-strong goods-price-now">${{item.price}}澳元</text>
+                <text class="goods-price-deleted">${{item.original_price}}澳元</text>
+            </view>
+            <view class="goods-purchase-btn">
+                <button class="purchase-btn" type='warn'>立即抢购</button>
+            </view>
+        </view>
+    </view>
+
+  </view>
+
+</view>
